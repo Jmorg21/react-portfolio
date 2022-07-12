@@ -8,7 +8,7 @@ import Nav from "./components/navigation/nav";
 import MainContainer from "./components/page/main";
 
 function App() {
-  const [page, setPage] = useState("about");
+  const [page, setPage] = useState("About");
   return (
     <div className="App">
       <header className="App-header">
